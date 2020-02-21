@@ -1,2 +1,3 @@
 # Diplomacy-Adjudicator
-To Translate and improve an old Power Basic Diplomacy Adjudicator to Justbasc or/and Python
+To Translate to Just Basic and improve a set of old Power Basic programs  which run a Diplomacy Adjudicator.
+To allow Collaborators to translate the code into Python. 
