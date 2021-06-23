@@ -1,0 +1,428 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html lang=en>
+  <head>
+      <title>html_from_text</title>
+      <meta charset='utf-8' />
+      <meta name='keywords' content='508210708-161512120525,WEB SITE CREATOR,HTML INDEX CREATOR' >
+      <meta name='description' content=',CREATES HTML PAGES FROM TEXT FILES,Your Name in Setup.txt' >
+      <style type='text/css' media='screen'>
+        body                  {
+        font-family:    'Lucida Console', monospace,'Courier New',  Monaco;
+        text-align:     left;
+        font-style:     normal;
+        font-weight:    normal;
+        font-size:      1em;
+        overflow: scroll;  /* scroll, visible, hidden, auto */
+        color:          black;
+        background:     Lime url(tailground.jpg); no-repeat;fixed;left top;
+        }
+        em    {
+        font-size:      1em;
+        font-weight:    normal;
+        text-decoration:underline;
+        }
+        a         {
+        color:         lime;
+        background:    green;
+        text-decoration: none;
+        }
+        a.offsite             {
+        text-decoration:    none;
+        font-weight:   normal;
+        color:         black;
+        background:    blue;
+        }
+        a:link    {
+        color:         lime;
+        background:    green;
+        text-decoration: none;
+        }
+        a:visited {
+        color:         lime;
+        decoration:    line-through;
+        }
+        a:hover   {
+        color:         black;
+        background:    white;
+        text-decoration: none;
+        }
+        a:active  {
+        color:         black;
+        background:         white;
+        text-decoration: none;
+        }
+        a:focus   {
+        color:         white;
+        background:         black;
+        text-decoration: none;
+        }
+        pre   {
+        }
+        #body_index_page  {           /* used in Cover Page */
+        text-align:     center; /* right, left, center */
+        font-size:      2em;
+        font-weight:    normal;   /* bold or normal */
+        color: black;
+        background: LIME url(indexground.jpeg) no-repeat fixed left top;
+        }
+        .Frame_inset {                /* frame around an element */
+        border-color:  green;
+        border-width:  1em;
+        border-style: inset;
+        }
+        .p_in_image {                 /* position text within link graphic */
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        float: center;
+        }
+        .Frame_scaled {              /* scale an image inside Frame_inset */
+        width: 100%;
+        height: auto;
+        }
+        .index_line {
+        padding-left:  2em; /* EM is PX dependent */
+        border-left:  solid;
+        border-right: none;
+        border-top:   none;
+        border-bottom: none;
+        border-left-width: thick;
+        border-color: red;
+        text-align:  left;
+        font-size:    .8em;
+        }
+        #index {
+        float: right;
+        font-size:   .8em;
+        left:  25.5em;
+        padding:  1em  1em;
+        margin:  1em;
+        }
+        #tailbody  {
+        max-width:  51em; /* Determined by [width PX] in [SetUp.txt] */
+        text-align:     left;       /* right, left, center */
+        font-style:  normal;        /* normal, oblique */
+        font-size:      1em;
+        font-weight:    normal;       /* bold or normal */
+        color: black;
+        background: Lime url(tailground.jpg); no-repeat;fixed;left top;
+        }
+        p {
+        font-style:  oblique;
+        font-weight:  normal;
+        text-align:  left;
+        font-size: 1em;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 0;
+        padding-bottom: 0;
+        }
+        div.text      {
+        padding:  1em  1em;
+        font-size:      1em;
+        color: black;
+        font-weight:    normal;       /* bold or normal */
+        background: Lime url(tailground.jpg); no-repeat;fixed;left top;
+        }
+        .buttonscaled {
+        width: auto;
+        height:   2em;
+        border-width: .25em;
+        border-style: outset;
+        }
+        strong    {
+        font-size:    1.3em;
+        font-weight:  bold;
+        font-variant:   small-caps; */ /* small-caps, normal
+        }
+      </style>
+  </head>
+<body id='tailbody'>
+<dl id='index' class='Frame_inset' ><dt><a id='top' href='html_from_text.html' target='_blank'>[SINGLE PAGE]</a></dt>
+<dt><a id='BBB3' href='#AAA3'>1.0 The Technical Manual for Text_Webber!</a></dt>
+<dt><a id='BBB4' href='#AAA4'>2.0 The License Agreement</a></dt>
+<dt><a id='BBB5' href='#AAA5'>3.0 An INDEX ORGANIZER</a></dt>
+<dt><a id='BBB6' href='#AAA6'>4.0 CSS CONTROLS THE APPEARANCE OF YOUR WEBSITE!</a></dt>
+<dt><a id='BBB8' href='#AAA8'>6.0 Creating HTML Pages With TEXT CODE MARKS!</a></dt>
+<dt><a id='BBB9' href='#AAA9'>7.0 THE  <em>!setup.txt</em>  FILE</a></dt>
+<dt><a id='BB10' href='#AA10'>8.0 TEXT CODE MARKS</a></dt>
+<dd><a id='BB11' href='#AA11'>9.0 Text Code Mark (TCM) Rules</a></dd>
+<dd><a id='BB12' href='#AA12'>10.0 TCM -9 MOVE HTML FILE TO FOLDER</a></dd>
+<dd><a id='BB13' href='#AA13'>11.0 TCM +9 CREATE INTERNAL STYLE TAGS</a></dd>
+<dd><a id='BB14' href='#AA14'>12.0 USE TCM +9 AGAIN TO CREATE A RIGHT COLUMN INDEX</a></dd>
+<dd><a id='BB15' href='#AA15'>13.0 TCM (+8-8) CREATE BOLD FONT</a></dd>
+<dd><a id='BB16' href='#AA16'>14.0 TCM (+7-7) OBLIQUE PARAGRAPH FORMAT</a></dd>
+<dd><a id='BB17' href='#AA17'>15.0 TCM (+6-6) KEEP TEXT FORMAT</a></dd>
+<dd><a id='BB18' href='#AA18'>16.0 TCM (+5,-5) LINE RETURNS</a></dd>
+<dd><a id='BB19' href='#AA19'>17.0 TCM (+4-4) CREATE A LINK</a></dd>
+<dd><a id='BB20' href='#AA20'>18.0 TCM (+-3) CREATE AN INLINE IMAGE OR TRANSFER A FILE</a></dd>
+<dd><a id='BB21' href='#AA21'>19.0 TCM (-2,+2) SUB INDEX ENTRY</a></dd>
+<dd><a id='BB22' href='#AA22'>20.0 TCM +1  <em>UNDERLINE TEXT</em></a></dd>
+<dd><a id='BB23' href='#AA23'>21.0 TCM -1 MAIN INDEX ENTRY</a></dd>
+<dt><a id='BB24' href='#AA24'>22.0 THE FOLDERS</a></dt>
+<dt><a id='BB32' href='#AA32'>30.0 CREATE OTHER FOLDERS</a></dt>
+<dt><a id='BB33' href='#AA33'>31.0 THE  <em>head Document</em>  FILE</a></dt>
+<dt><a id='BB34' href='#AA34'>32.0 THE  <em>TAIL FRAME</em>  DOCUMENT</a></dt>
+<dt><a id='BB35' href='#AA35'>33.0 THE  <em>INDEX.HTML</em>  DOCUMENT</a></dt>
+<dt><a id='BB36' href='#AA36'>34.0  <em>@WEBBER TEXT</em>  BACKUP</a></dt>
+<dt><a id='BB37' href='#AA37'>35.0 CLEAN UP UN-USED FILES</a></dt>
+<dt><a id='BB38' href='#top'>TO TOP OF INDEX</a></dt>
+<dd></dd>
+</dl>
+<div class='text'>
+
+
+
+
+<pre></pre><div><a id='AAA3' href='#top'>1.0 The Technical Manual for Text_Webber!</a><br>
+
+&ensp;&ensp;&ensp;&ensp; <em>Refer to the text file in Folder (@WEBBER_TEXT)</em>  which created these instructions to see an example of how  <em>Text Code Marks (TCM)</em>  work! The program (Run_Me4WEBBER), hereafter referred to as &lsquo;The Program&lsquo;, creates a HTML Framed Web Site from its root folder and sub folders. HTML5 does not support Frameset code; therefore, the Program is not practical for creating Web sites on the internet. However, it is still helpful for creating HTML pages and recording Diplomacy Adjudicator results.<br> &ensp;&ensp;&ensp;&ensp;The best place for The Program&lsquo;s root folder is on your WINDOW&lsquo;S DESKTOP; a folder name such as TEXT WEBBER will work well. The Program uses HTML, Text-files(.TXT), and CSS files in the sub-folder (@WEBBER_TEXT) to generate your Framed Web Site&lsquo;s HTML documents. By changing these text and data files, you can have the Program change an existing HTML page&lsquo;s location and content or create a NEW page. It will be practical before using the Program to open a &lsquo;WINDOWS EXPLORER&lsquo; window. Then in the menu bar click &lsquo;VIEW&lsquo; tab, then check the box for &lsquo;File name extensions&lsquo;.<br> &ensp;&ensp;&ensp;&ensp;The Text Files in the Folder (@CONTROL) affect the default output of your Web Site. Edit the Text.TXT Files in Folder (@WEBBER_TEXT) to ignore the (@CONTROL) files defaults. Edit the CSS Files in Folder (!HTML_FOLDERS) to ignore the (@WEBBER_TEXT) CSS files. NOTE: Do not edit HTML documents in folder ( <em>!HTML_FOLDERS\!HTML_FROM_TEXT\</em> ) as they will be over written by operations elsewhere! You can place in the Folder (@HTML_HOLD_FILES), material referenced by your Text Code Marks in Folder (@WEBBER_TEXT). In addition the Program will call  <em>Move_Graphic.exe</em>  to copy JPG image files placed in your Root Folder to Folder (@HTML_HOLD_FILES). <p> <em>The Text Code Marks</em> , hereafter referred to as TCM, allow you to program your text file&lsquo;s essential elements to produce your HTML documents.</p>
+
+&ensp;&ensp;&ensp;&ensp;You can place HTML code in your text files as long as the sections enclosed by less than and greater than marks [&lt; code&gt;] are on the same line. Otherwise, the HTML code does not work correctly, often adding ENTITY HTML code.
+<p>Finally: you can use programs such as &lsquo;Libre Office&lsquo;, &lsquo;Grammarly&lsquo; to turn the HTML documents into PDF documents.</p>
+
+
+
+
+</div>
+<pre></pre><div><a id='AAA4' href='#BBB3'>2.0 The License Agreement</a><br>
+
+&ensp;&ensp;&ensp;&ensp;The first time you run the Program, the Tail Frame will show the License Agreement instead of the (tail.txt) file! You will not find the file License.txt in the (@WEBBER_TEXT) because the Program creates it, then deletes it after the first run.
+<p>IF you wish TO use the CODE OR the program, please email me at (hap2u@hotmail.com) fOR EASY TO GET permission!</p>
+
+
+
+
+</div>
+<pre></pre><div><a id='AAA5' href='#BBB4'>3.0 An INDEX ORGANIZER</a> which is tempermental!<br>
+
+&ensp;&ensp;&ensp;&ensp;The Program will organize a text file by any surrounded period identifiers, (2.a), it finds at the start of a [-1 or -2] INDEX line. The format is limited to a maximum of nine characters, including the period. [Form: AB99.cd99]<br> &ensp;&ensp;&ensp;&ensp;The Organizer is temperamental because if you ID one Index, you must ID all the Indexes, or the Organizer will list Indexes in unexpected ways. The one exception is moving one section of Indexes to the top and the other to the bottom. 
+
+
+</div>
+<pre></pre><div><a id='AAA6' href='#BBB5'>4.0 CSS CONTROLS THE APPEARANCE OF YOUR WEBSITE!</a><br>
+
+&ensp;&ensp;&ensp;&ensp;The technical features of Cascading Style Sheets, CSS, can be found at <a href='http://www.w3schools.com/css/' target='_blank'>CSS Tutorials</a>. The CSS files (tail.css), (main.css) and (head.css) control the Layout of your Web Site. Delete CSS files in (!HTML_FOLDERS), and the CSS in (@WEBBER_TEXT) replaces them. Delete CSS files in (@WEBBER_TEXT), and the CSS in (@CONTROL) replaces them. Delete CSS files in (@CONTROL), and they are replaced by (Setup.txt) default values.<br> &ensp;&ensp;&ensp;&ensp;By editing (@CONTROL/Setup.txt), one can change the default Settings for CSS! AS well you can edit THIS File TO change other DEFAULT descriptions AND settings. In (@WEBBER_TEXT), if you replace (Frame.html) with (Frame2.html) instead OF a three-frame site, you will have a two-frame one. 
+
+
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AAA7' href='#BBB6'>5.0 Spider Bots</a> gather info on your HTML pages! The &lsquo;HTML head tag&lsquo; meta statements help &lsquo;Bots&lsquo; gather information on your Site. In (@Control\setup.txt), you can change some of these spider discriptions. In the (@WEBBER_TEXT) text files, you will find three Spider lines at the top of the File. Removing them does not work because the Program will create them again. I thought about redoing this part of the Code, but it might mess up other code sections. 
+
+
+</div><br>
+</div>
+<pre></pre><div><a id='AAA8' href='#BBB6'>6.0 Creating HTML Pages With TEXT CODE MARKS!</a><br>
+
+&ensp;&ensp;&ensp;&ensp;Start editing (tail.txt) in the (@WEBBER_TEXT) Folder to create your introduction page. You can also use this procedure to create a TCM designed (head.html) Frame.<br> &ensp;&ensp;&ensp;&ensp;Create descriptive (!HTML_FOLDERS) Sub Folders, without &lsquo;@&lsquo; in their name, place already created HTML Pages and any supporting files into the &lsquo;Sub Folder&lsquo;. Links to the Folders are now in the Left Frame Folder List. Clicking a FOLDER will list the HTML files in that Folder.<br> &ensp;&ensp;&ensp;&ensp;Some supporting HTML files may show up because they have the (.html) extension instead of the (.htm) extension. Rename the Supporting HTML extensions to (.htm) and edit the remaining (.html) pages to call (.htm).<br> &ensp;&ensp;&ensp;&ensp;In (@CONTROL/!setup.txt) remove the Headings listed after the keyword &lsquo;Describe&lsquo; by changing the keyword to -Describe-. Your Web Site will now function only with those Folders containing your designed or created HTML.<br> &ensp;&ensp;&ensp;&ensp;The Program translates text files [.txt] in the folder @WEBBER_TEXT into HTML files (.html) in accordance with the &lsquo;Text Code Marks&lsquo;(TCM) at the end of the text lines. The resultant HTML files are placed in the default folder (!HTML_FOLDERS\!HTML_FROM_TEXT) unless redirected to a different folder by a TCM [:-9].<br> &ensp;&ensp;&ensp;&ensp;The File Names in each active Sub Folder of (!HTML_FOLDERS) create the Links in the Left Frame. Supporting HTML file extensions should be designated (.htm) and placed in your (@HTML_HOLD_FILES) Folder or they will show up as a Link in the Left Frame. Avoid using nondescript names for the left frame link derived from the (.html) name.<br> &ensp;&ensp;&ensp;&ensp;The default files (head.txt), (tail.txt), and (html_from_text.txt), are created by The Program in the folder (@WEBBER_TEXT). You can edit these files but, except for (html_from_text.txt), if you delete them The Program will recreate the default versions. 
+
+
+</div>
+<pre></pre><div><a id='AAA9' href='#BBB8'>7.0 THE  <em>!setup.txt</em>  FILE</a><br>
+
+&ensp;&ensp;&ensp;&ensp;This File contains all the amendable default data for your Web Site; items such as your name, frameset sizes, Link Headings, colour layouts and personal contact data. For CSS changes to this File to take effect, delete all the CSS files in Folders @CONTROL and @WEBBER_TEXT. 
+
+
+</div>
+<pre></pre><div><a id='AA10' href='#BBB9'>8.0 TEXT CODE MARKS</a> (abbreviation = TCM)<br>
+
+&ensp;&ensp;&ensp;&ensp;These marks are your secret weapon for quickly creating HTML Pages without knowing the vast HTML Rule and Tag library! When placed at the end of a line, a TCM tells The Program how to create an HTML Page! They are composed of a colon (:) and a negative or positive sign and a number (:+-1 to :+-9)! This HTML document  <em>html_from_text.txt</em>  in Folder  <em>@WEBBER_TEXT</em>  is an Instruction File and an Example File. <br>
+
+<div>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a id='AA11' href='#BB10'>9.0 Text Code Mark (TCM) Rules</a><br>
+
+&ensp;&ensp;&ensp;&ensp;1. Generally, you place TCM Marks at the end of a text line in any order. Index TCM (-1,2 and -2) will cause errors when used with nested TCM 8,7,6 or the Line returns TCM (-5,+5). Use TCM 5 after an index (-1,2,-2) to properly display following indented lines.<br> &ensp;&ensp;&ensp;&ensp;2. TCM Marks (+5,-5) are not compatible with TCM Marks (-1,6,2,-2).<br> &ensp;&ensp;&ensp;&ensp;3 TC Marks (+8,+7,+6) require closing TC Marks (-8,-7,-6) and must be nested when used together.<br> &ensp;&ensp;&ensp;&ensp;4. The &lsquo;TAB&lsquo; key, or a blank text line, containing 4 spaces will separate HTML lines with a 4 space spacer line; an empty line containing no spaces will start a new line without a spacer!<br> &ensp;&ensp;&ensp;&ensp;5. Index (-1) can not be indented, a sub index (-2,2) can be indented. An unindented line following a Sub Index  will run into the Index Line. A Sub-Index (-2,2) text line Indented with spaces will indent the Index Line with spaces grouped in fours, to a max of 24.<br> &ensp;&ensp;&ensp;&ensp;6. Link TCM -3,-4 and +4 can be used after a (:) with Index TCM(-1,2,-2). That way you can jump from a Webber page&lsquo;s index to the picture or link quickly. The Program will leave an empty line after such links for HTML formatting reasons.<br> &ensp;&ensp;&ensp;&ensp;eg.  <em>{tail.html} ~secondimage.jpg~ HOME}:-4:-3</em>  will move the Intro back into the tail Frame.<br> &ensp;&ensp;&ensp;&ensp;7. Generally TCM Marks can be placed at the end of a text line in any order.<br>
+
+&ensp;&ensp;&ensp;&ensp;That&lsquo;s it for the general rules, only nine TCM numbers, seven rules and TCM 3,4 syntax to remember or look up! 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA12' href='#BB10'>10.0 TCM -9 MOVE HTML FILE TO FOLDER</a><br>
+
+This tells The Program in what Folder to place an HTML file created from a text file. (!HTML_FOLDERS\!HTML_FROM_TEXT&lsquo; is the default folder without TCM -9. This line can not be used with any other marks and must consist of just the Folder Name!  <em>It is crucial</em>  to place this mark below your spider references which are the first three lines of code created on every (@WEBBER_TEXT) text file.<br> &ensp;&ensp;&ensp;&ensp;i.e.  <em>TEST_Folder:-9</em><br> &ensp;&ensp;&ensp;&ensp;Once the HTML page has been created in this way, removing its text file from (@WEBBER_TEXT) will not remove the HTML page from the Folder. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA13' href='#BB10'>11.0 TCM +9 CREATE INTERNAL STYLE TAGS</a><br>
+
+Rather than rely upon an external Style Sheet, this TCM creates a heading Style Sheet Code. With a TCM +9, the HTML page is more portable than with its default format. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA14' href='#BB10'>12.0 USE TCM +9 AGAIN TO CREATE A RIGHT COLUMN INDEX</a><br>
+
+&ensp;&ensp;&ensp;&ensp;Use TCM +9 a second time to place the page&lsquo;s Index in the right column. The default position for the Index is at the top of the page. When many index lines obscure the main text, placing the Index to the right may help. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA15' href='#BB10'>13.0 TCM (+8-8) CREATE BOLD FONT</a><br>
+
+A missing close TCM -8 will create an error message!<br> &ensp;&ensp;&ensp;&ensp;Example:<br> <strong>&ensp;&ensp;&ensp;&ensp;The Bold Font requires TCM -8 to end this font!<br> &ensp;&ensp;&ensp;&ensp;With this example the TCM +8 is on the line above!<br> &ensp;&ensp;&ensp;&ensp;TCM -8 is at the end of this line!</strong><br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+&ensp;&ensp;&ensp;&ensp;The <strong>Bold Font</strong> of TCM 8 can throw off width restrictions, mess with TCM 6,7. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA16' href='#BB10'>14.0 TCM (+7-7) OBLIQUE PARAGRAPH FORMAT</a><br>
+
+<p>TCM 7 creates an indented oblique paragraph independent of line breaks. A missing close TCM -7 will generate an error message! The Program will adequately control the TCM execution if there are no nesting errors!</p>
+
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA17' href='#BB10'>15.0 TCM (+6-6) KEEP TEXT FORMAT</a><br>
+
+Format lines the way they are recorded!  This is useful when your information requires lines larger than (40em) in length or a simple table. This will work only with  <em>monospace Fonts</em> . Note HTML does not  <em>monospace chr(32)</em> even with entity code, so in HTML tables which use spaces will not line up properly.
+<pre>
++________________________|________________________|________________________|________________________|
+
++------------------------|------------------------|------------------------|------------------------|
+
++------------------------|------------------------|------------------------|------------------------|
+
++========================|========================|========================|========================|
+
+01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+
+&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;25&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;50&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;75&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;&lsquo;100
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;25&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;50&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;75&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;100</pre>
+
+&ensp;&ensp;&ensp;&ensp;This TCM does not always play well with other TCM marks like TCM 8,7,5,2,-2 and -1. Because HTML created with this program uses Fixed length Font, table like information can be outputted without using the HTML table tags and format rules. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA18' href='#BB10'>16.0 TCM (+5,-5) LINE RETURNS</a><br>
+
+&ensp;&ensp;&ensp;&ensp;TCM 5 lines only work perfectly when not affected by following indented lines or blank lines. The [-5] starts a new line without creating a blank line. The [+5] adds a following blank line with four spaces.<br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+When creating an indented list after an Index TCM(-1,2) use a +5 on the a following blanck line. <br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+&ensp;&ensp;&ensp;&ensp;I am a new line after a TCM +5.<br>
+
+&ensp;&ensp;&ensp;&ensp;I am a new line after a TCM -5 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA19' href='#BB10'>17.0 TCM (+4-4) CREATE A LINK</a><br>
+
+&ensp;&ensp;&ensp;&ensp;TCM 4 creates a link using three upper case brackets: {tail.html}Home_Page}. Place inside these brackets; the address of a File and label of a Link in the form:<br> &ensp;&ensp;&ensp;&ensp;{(http://)(URL address)(#place on page)}name_label}<br> &ensp;&ensp;&ensp;&ensp;A TCM +4 link calls up a new HTML page external to the HTML Frame subset, while a TCM -4 sends the page to the Right Frame. For an internal page link, place a [#] sign in front of the address.<br> &ensp;&ensp;&ensp;&ensp;You can use a TCM -3 to create an icon image for your Link. Use software such as Paint to Reduce the Image resolution to approximately 300X220_PX.<br> &ensp;&ensp;&ensp;&ensp;TCM (-3+4)  Example:<br> &ensp;&ensp;&ensp;&ensp;[{http://ca.yahoo.com/} ~secondimage.jpg~ Yahoo Canada}:+4:-3]<br> &ensp;&ensp;&ensp;&ensp;Image Links are temperamental and seek their own space. <div class='img'><a href='http://ca.yahoo.com/' target='_blank'><img class='buttonscaled' src='secondimage.jpg' alt='secondimage.jpg_not found'></a><div class='desc'> Yahoo Canada</div></div><br> &ensp;&ensp;&ensp;&ensp;If a web address indicator [/] is not in the address, The Program will attempt to copy the File in the address from the [!HTML_FOLDERS\@HTML_HOLD_FILES] to the Folder in use by the Link! 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA20' href='#BB10'>18.0 TCM (+-3) CREATE AN INLINE IMAGE OR TRANSFER A FILE</a><br>
+
+&ensp;&ensp;&ensp;&ensp; <em>This Mark requires the up case wave mark</em>  above the tab key of most computers. Use this form with spaces [ ~image or file name~ ] followed by TCM -3 for an image or TCM +3 to transfer a file from the HOLD_HTML_FILES Folder.<br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+&ensp;&ensp;&ensp;&ensp;Examples:<br> &ensp;&ensp;&ensp;&ensp;The wave Code inside the brackets [~secondimage.jpg~] will not be displayed. +3 will move the file to (HTNL_FROM_TEXT). -3 will display the Image!<br>
+
+&ensp;&ensp;&ensp;&ensp;Image or file moved: [  ]<br> &ensp;&ensp;&ensp;&ensp;The Image is displayed<br>
+
+&ensp;&ensp;&ensp;&ensp;[ <div class='Frame_inset'><img class='Frame_scaled'  src='secondimage.jpg' alt='secondimage.jpg_not found'></div> ]<br>
+
+&ensp;&ensp;&ensp;&ensp;Logo Image files (.jpg) used for links should be no larger in size than 320X200_PX and if smaller should maintain this aspect ratio!<br> &ensp;&ensp;&ensp;&ensp;When you can manage it the best size for regular photos is 800X450_PX this gives a 16/9 ratio frame. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA21' href='#BB10'>19.0 TCM (-2,+2) SUB INDEX ENTRY</a><br>
+
+Creates a Sub Index to a Main Index Entry and links to it!  Upon arrival at the sub-index HTML Label, a Left Click will navigate to the Previous Main Index Label before the used index link. As in a Main Index, placing a colon (:) in the line will reduce the length of the highlight.<br>
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Example:<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;(This: is a Sub link:-2)<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;(This) - Will be the link name!<br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+The TCM+2 works the same way as the TCM-2, except it will not show up in the Page&lsquo;s Index. The use of TCM (8,7,6 or 5) with TMC (-1,-2,+2) may create problems. 
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA22' href='#BB10'>20.0 TCM +1  <em>UNDERLINE TEXT</em></a><br>
+
+This Mark will remove rectangle brackets and underline the enclosed text.<br> &ensp;&ensp;&ensp;&ensp;Form: ( [This text is underlined] :+1) uses the HTML tag &lsquo;EM&lsquo; and CSS to achieve the below result.<br>
+
+&ensp;&ensp;&ensp;&ensp; <em>This text is underlined</em> , (this text is not!)<br>
+
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA23' href='#BB10'>21.0 TCM -1 MAIN INDEX ENTRY</a><br>
+
+Creates a Main Index Entry and links to it!  Upon arrival at the HTML Label, a Left Click will navigate back to the Main Index link before the used index link. Placing a colon (:) in the line will reduce the length of the Link.<br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Example:<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;(This: is a main link:-1)<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;(This) - will be the link name!<br>
+&ensp;&ensp;&ensp;&ensp;<br>
+
+The use of TCM (8,7,6 or 5) with TMC (-1,-2,+2) may create problems. 
+
+
+</div><br>
+</div>
+<pre></pre><div><a id='AA24' href='#BB10'>22.0 THE FOLDERS</a> Create the Web Site's Structure!<br>
+
+&ensp;&ensp;&ensp;&ensp;The [AT(@) Folders] add to or aid in the process of creating the documents found in your Exlamaintion (!) folders. The (@) folders do not change unless edited or deleted. The (!) Folders change almost with every run of The Program.
+<p>So copy creations you wish to keep using (!HTML_FOLDERS:-9) into a more permanent subfolder in the folder (!HTML_FOLDERS).</p>
+
+
+
+
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA25' href='#BB24'>23.0 THE  <em>!GOODCOPY FOLDER</em> </a> last AS2 Text copy of your documents!<br> &ensp;&ensp;&ensp;&ensp;This folder contains processed text files created from files in @WEBBER_TEXT. Load one or more of these text files into a word processor to create other document types such as (html_from_text.doc). 
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA26' href='#BB24'>24.0 THE  <em>@CONTROL FOLDER</em> </a> contains your default Folders! This Folder contains default files and Information Files, which can be changed or adjusted after running &lsquo;TEXT WEBBER&lsquo; for the first time. The information gathered during the programs execution can be helpful, check out:  <em>file_found.txt</em>  ,  <em>file_not_found.txt</em>  ,  <em>file_required.txt</em>  ,  <em>files_in_folders.txt</em>  ,  <em>files_in_hold.txt</em> 
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA27' href='#BB24'>25.0 The  <em>@WEBBER_TEXT</em>  Folder</a> The guts of your Web Site! To create your HTML Pages, you can use any Word Processor that saves the text in ASCII [.txt] format. You do not have to use &lsquo;Hyper Text Markup Language&lsquo;; all you need to know are the TCM codes!<br> &ensp;&ensp;&ensp;&ensp;The Program will list the created pages in this Folder in the left [main] frame by file name. Notepad, or the Text Editor <a href='http://liquidninja.com/metapad/' target='_blank'> MetaPad</a> can be used to create or edit your text files.<br> &ensp;&ensp;&ensp;&ensp;The default files in this Folder are Head.txt, Tail.txt and [Html_from_text.txt]. You can Edit the Files in this Folder to display something different from the default file&lsquo;s information. Deleting [@WEBBER_TEXT\HTML_FROM_TEXT.TXT] will remove it from your left Frame Links. You can place the File in another folder for future reference by using TCM-9. Make [@WORK:-9] the first line in the text body. You will now find this Document in Folder [!HTML_FOLDERS/@WORK]. 
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA28' href='#BB24'>26.0 The  <em>!HTML_FOLDERS</em> </a> Contains your Web Site!<br> &ensp;&ensp;&ensp;&ensp;Located in this Folder are the sub-folders and HTML documents plus the CSS files that control your three-frame WEB SITE structure. The essential File is [MAIN.HTML] because it changes each time you run The Program, and it contains links to the HTML pages stored on the Web Site. 
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA29' href='#BB24'>27.0 The  <em>HTML_HOLD_FILES</em>  Folder</a> Contains the files used by your HTML documents!<br> &ensp;&ensp;&ensp;&ensp;Located in [HTML_HOLD_FILES] are the HTM, CSS and Graphic files required or called upon by your HTML pages. Except for the graphic files, you need to place files called by your [@WEBBER_TEXT] text(.TXT) files here. Graphic (.JPG) files placed in the root folder will be moved to this Folder by [Move_Graphics.EXE]. 
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA30' href='#BB24'>28.0 The  <em>!HTML_FROM_TEXT</em>  Folder</a> contains the Last HTML documents created! This is the Default Folder for HTML documents converted from the Text Files in Folder [@WEBBER_TEXT]. Running The Program cleans out all previous files in this Folder, therefore place image and HTML files that your text files require in Folder [@HTML_HOLD_FILES]. Editing files here is a mistake you will not likely repeat.<br> &ensp;&ensp;&ensp;&ensp;When you run The Program, files referenced by TCM 3 or 4 will be copied to Folder (!HTML_FROM_TEXT) or to the Folder referenced by TCM -9. For missing Files, you can check the [@CONTROL\file_not_found.txt] File for more path and File information to aid you in determining what file is missing. 
+
+
+</div>
+<div>&ensp;&ensp;&ensp;&ensp;<a id='AA31' href='#BB24'>29.0 The  <em>DOWNLOADS</em>  Folder</a> contains public ZIP files<br> &ensp;&ensp;&ensp;&ensp;Place zipped files (.zip) you wish visitors to download here! After running the program Clicking DOWNLOADS will display these files, clicking the file will start the download process. Place (Trial4Webber.zip) in your root folder, run the program, you will now find this file in your Web Site&lsquo;s DOWNLOAD folder. 
+
+
+</div><br>
+</div>
+<pre></pre><div><a id='AA32' href='#BB24'>30.0 CREATE OTHER FOLDERS</a><br>
+
+You can use TCM -9 to create a Folder and place the generated HTML Page there. The Program will also move any Image files referenced with a TCM(4 or 3) stored in the [@HTML_HOLD_FILES] to the created Folder. Clicking a FOLDER will list the HTML files links in that folder.<br> &ensp;&ensp;&ensp;&ensp;Any HTML files not created directly by the program placed in a Folder will show up as a link. To have a supporting HTML document not show up as a link give it the (.htm) extension, then edit the calling HTML document to reflect the changed extension. 
+
+
+</div>
+<pre></pre><div><a id='AA33' href='#BB32'>31.0 THE  <em>head Document</em>  FILE</a><br>
+
+Controls your Heading frame output; this is a good spot for Favorite Links! In (@WEBBER_TEXT), you can change its content or delete it to get back the Default File. The default file contains links to the official Markup Validation Services. Click on the HTML validator and use it to validate your HTML pages! 
+
+
+</div>
+<pre></pre><div><a id='AA34' href='#BB33'>32.0 THE  <em>TAIL FRAME</em>  DOCUMENT</a><br>
+
+The Program creates text File (Tail.txt) in Folder (@TEXT_WEBBER) when it is not there. The user can edit (Tail.txt) to suit his or her needs. Then, display this page by left-clicking the HOME heading link! Once you have created or obtained a DESIGNER page, rename it [tail.html] and place it in the (!HTML_FOLDERS) Folder. Make (@WORK:-9) the first entry in (@TEXT_WEBBER\tail.txt) file below your spider entries. Now (Tail.txt) in Folder (@TEXT_WEBBER) will not overwrite the designed file (tail.html). 
+
+
+</div>
+<pre></pre><div><a id='AA35' href='#BB34'>33.0 THE  <em>INDEX.HTML</em>  DOCUMENT</a><br>
+
+This Document is your Cover Page, a graphic page linked to your Site&lsquo;s interactive Web Pages. [Index.html] will display any graphic in your ROOT Folder named &lsquo;firstimage.jpeg&lsquo;! If you name a designer page (index.html) and replace the original File, The Program will not overwrite it. 
+
+
+</div>
+<pre></pre><div><a id='AA36' href='#BB35'>34.0  <em>@WEBBER TEXT</em>  BACKUP</a> saves month and year versions of your TCM documents!<br>
+
+&ensp;&ensp;&ensp;&ensp;With each running of The Program, new (@WEBBER TEXT) files are backed up one time to the month folder in (@WEBBER_TEXT_BACKUP). In addition, The Program backs up the current version of a text file to the Year Folder. The Program creates a new MONTH Folder after the first day of the month and one-time backups of existing files. When the Year date changes, files in the previous Year do not get placed in the new Year&lsquo;s Folder. If you happen to think of it; in January review and select the old text files you wish to keep from the previous year&lsquo;s folder and paste then to the new year folder, then delete the previous year folder.
+<p>Every month, the Program creates a New Month Backup Folder which overwrites the same month Folder from the previous Year</p>
+
+
+
+
+</div>
+<pre></pre><div><a id='AA37' href='#BB36'>35.0 CLEAN UP UN-USED FILES</a> get rid of all the accumulated junk!<br>
+
+&ensp;&ensp;&ensp;&ensp;Over time your Web Site will fill up with junk Files not being used.  <em>You can clean up unused files</em>  by renaming the (@HTML_HOLD_FILES) Folder as (@DELETE) then run the program. The Program will attempt to move required files from Folder  <em>@DELETE</em>  to the newly created  <em>@HTML_HOLD_FILES</em> . This process may create some error messages.  <em>Ignore these messages</em>  and rerun the Program. If the program detects no missing files you have cleaned up your Web Site. If after doing this procedure the program reports some not found files then try to find these files and place them in the  <em>@HTML_HOLD_FILES</em>  Folder.<br> &ensp;&ensp;&ensp;&ensp;If Disk Space is not an issue; Cut and Paste the  <em>@DELETE</em>  Folder to  <em>@WEBBER TEXT\@WEBBER_TEXT_BACKUP\</em> . That way if you wish to bring an old support file back into service, you may still have it in the backup Folder <em>@DELETE</em> .
+</div>
+</div>
+</body>
+</html>
